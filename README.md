@@ -12,19 +12,13 @@ This project compares two machine learning models — **Support Vector Machine (
 - Streamlit app for real-time testing
 
 ## 🗂️ Project Structure
-
-├── app/ # Streamlit interface
-
-├── data/ # Audio files (RAVDESS)
-
-├── models/ # Saved models (SVM .pkl & CNN .h5)
-
-├── notebooks/ # Jupyter notebooks for training
-
-├── requirements.txt # Python dependencies
-
-└── README.md
-
+   ```bash
+   ├── app/ # Streamlit interface
+   ├── data/ # Audio files (RAVDESS)
+   ├── models/ # Saved models (SVM .pkl & CNN .h5)
+   ├── notebooks/ # Jupyter notebooks for training
+   ├── requirements.txt # Python dependencies
+   └── README.md
 
 
 ## ▶️ How to Run
