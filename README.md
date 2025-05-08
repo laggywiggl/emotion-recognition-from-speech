@@ -30,20 +30,16 @@ This project compares two machine learning models — **Support Vector Machine (
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/audio-emotion-recognition.git
+   git clone https://github.com/laggywiggl/audio-emotion-recognition.git
    cd audio-emotion-recognition
 Install requirements:
 
-bash
-Copier
-Modifier
+```bash
 pip install -r requirements.txt
 Launch the app:
 
-bash
-Copier
-Modifier
-streamlit run app/interface.py
+```bash
+streamlit run app.py
 Upload a .wav file and get emotion predictions from both models!
 
 📊 Results (Accuracy)
