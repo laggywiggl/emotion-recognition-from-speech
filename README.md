@@ -13,11 +13,17 @@ This project compares two machine learning models — **Support Vector Machine (
 ## 🗂️ Project Structure
 
 ├── app/ # Streamlit interface
+
 ├── data/ # Audio files (RAVDESS)
+
 ├── models/ # Saved models (SVM .pkl & CNN .h5)
+
 ├── notebooks/ # Jupyter notebooks for training
+
 ├── requirements.txt # Python dependencies
+
 └── README.md
+
 
 
 ## ▶️ How to Run
