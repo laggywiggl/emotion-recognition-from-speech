@@ -19,7 +19,7 @@ This project compares two machine learning models — **Support Vector Machine (
    ├── notebooks/ # Jupyter notebooks for training
    ├── requirements.txt # Python dependencies
    └── README.md
-
+   ```
 
 ## ▶️ How to Run
 
