@@ -1,43 +1,53 @@
-# 🎙️ Emotion Recognition from Speech
+# 🎙️ Audio Emotion Recognition (SVM vs CNN)
 
-This project is a real-time application that detects human emotions (e.g., happy, sad, surprised) from voice recordings using deep learning and audio signal processing.
+This project compares two machine learning models — **Support Vector Machine (SVM)** and **Convolutional Neural Network (CNN)** — for recognizing emotions from speech audio files. It uses the **RAVDESS** dataset and includes a user-friendly interface built with **Streamlit**.
 
-## 🚀 Features
+## 📌 Features
 
-- 🎧 Input: Speech audio files (WAV format)
-- 🧠 Model: CNN + MFCC features trained on emotional datasets
-- 📊 Technologies: Python, TensorFlow, Librosa, Streamlit
-- 🗣️ Emotions Detected: Surprised, Disgusted, etc.
+- Emotion detection from speech (e.g., happy, sad, angry, etc.)
+- Audio preprocessing and feature extraction (MFCC, Chroma, etc.)
+- SVM model using handcrafted features
+- CNN model trained on MFCC spectrograms
+- Streamlit app for real-time testing
 
-## 📁 Project Structure
+## 🗂️ Project Structure
 
-📦 Emotion-recognition-of-speech/
-├── app/ # Python app scripts
-├── mymodel.h5 # Trained deep learning model
-├── *.wav # Sample audio inputs
-├── Streamlit_audio.ipynb # Jupyter notebook version
-├── README.md
+├── app/ # Streamlit interface
+├── data/ # Audio files (RAVDESS)
+├── models/ # Saved models (SVM .pkl & CNN .h5)
+├── notebooks/ # Jupyter notebooks for training
+├── requirements.txt # Python dependencies
+└── README.md
 
-perl
+
+## ▶️ How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/audio-emotion-recognition.git
+   cd audio-emotion-recognition
+Install requirements:
+
+bash
 Copier
 Modifier
-
-## 🛠 Installation
-
 pip install -r requirements.txt
-streamlit run app.py
-🎤 Example
-Try uploading a WAV file like Surprised.wav or record your own voive  and the app will return:
+Launch the app:
 
-Detected Emotion: Surprised (example)
+bash
+Copier
+Modifier
+streamlit run app/interface.py
+Upload a .wav file and get emotion predictions from both models!
 
-📚 Dependencies
-Python 3.8+
+📊 Results (Accuracy)
+Model	Accuracy
+SVM	97%
+CNN	94%
 
-TensorFlow
+👩‍💻 Authors
+Zeghli Fatima Zahra
 
-Librosa
+Ait Ouamer Ouafa
 
-Streamlit
-
-NumPy, Scikit-learn
+Bourass Wiame
