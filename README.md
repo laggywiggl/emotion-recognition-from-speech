@@ -1,9 +1,10 @@
 # 🎙️ Audio Emotion Recognition (SVM vs CNN)
+![Streaming App UI](prediction.jpg)
 
 This project compares two machine learning models — **Support Vector Machine (SVM)** and **Convolutional Neural Network (CNN)** — for recognizing emotions from speech audio files. It uses the **RAVDESS** dataset and includes a user-friendly interface built with **Streamlit**.
 
 ## 📌 Features
-![Streaming App UI](prediction.jpg)
+
 - Emotion detection from speech (e.g., happy, sad, angry, etc.)
 - Audio preprocessing and feature extraction (MFCC, Chroma, etc.)
 - SVM model using handcrafted features
@@ -42,6 +43,9 @@ This project compares two machine learning models — **Support Vector Machine (
 Upload a .wav file and get emotion predictions from both models!
 
 ## 📊 Results (Accuracy)
-Model	Accuracy
-SVM	97%
-CNN	94%
+
+| Model | Accuracy |
+|-------|----------|
+| SVM   | 97%      |
+| CNN   | 94%      |
+
